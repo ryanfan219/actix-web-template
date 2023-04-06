@@ -26,3 +26,6 @@ thiserror = "1" # 错误定义和处理
 redis = "0.22.1"
 
 
+[profile.dev]
+codegen-units = 4
+debug = false
